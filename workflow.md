@@ -24,4 +24,4 @@ Read length distribution, Q score, and other metrics were obtained using NanoPlo
 
 ### Filter reads
 
-gunzip -c all.fastq.gz | NanoFilt -l 10000 -q 7 | gzip > all_10k.fastq.gz
+`gunzip -c all.fastq.gz | NanoFilt -l 10000 -q 7 | gzip > all_10k.fastq.gz`
