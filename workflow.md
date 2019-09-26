@@ -11,8 +11,8 @@ All reads were seperated by read_pass vs. read_fail using guppy, this was done b
 
 Read length distribution, Q score, and other metrics were obtained using NanoPlot, on each run seperately
 
-`NanoPlot -t 8 --fastq run1.fastq.gz  -o run1_qc
+`NanoPlot -t 8 --fastq run1.fastq.gz  -o run1_qc`
 
 # Merge all reads
 
-`zcat *.fastq.gz > merged/all_reads.fastq.gz
+`zcat *.fastq.gz > merged/all_reads.fastq.gz`
