@@ -25,3 +25,8 @@ Read length distribution, Q score, and other metrics were obtained using NanoPlo
 ### Filter reads
 
 `gunzip -c all.fastq.gz | NanoFilt -l 10000 -q 7 | gzip > all_10k.fastq.gz`
+
+
+### Assemble with Red Bean
+
+`wtdbg2 -x ont -g 1.6g -t 7 -i all_10k.fastq.gz -fo 10kwtdbg2_out`
