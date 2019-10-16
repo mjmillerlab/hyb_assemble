@@ -30,3 +30,13 @@ Read length distribution, Q score, and other metrics were obtained using NanoPlo
 ### Assemble with Red Bean
 
 `wtdbg2 -x ont -g 1.6g -t 7 -i all_10k.fastq.gz -fo 10kwtdbg2_out`
+
+
+### Assemble reads using flye
+(Graham has this command)
+
+### Four rounds of racon polishing the flye assembly with the ON fastq files
+Contig number dropped from ~1850 to 1315.
+
+### Polish the racon4 assembly with Illumina sequence data
+`bwa index assembly.racon4.fasta`
