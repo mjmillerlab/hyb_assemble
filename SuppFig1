@@ -1,0 +1,14 @@
+spec1_31 <- read.table("~/Desktop/jellyfish_histo/31mer_reads.histo")
+png("31mer2.png", width=150, height=120, units='mm', res=300)
+plot(spec1_31[5:200,],type="l", lwd =4, main="31-mer", xlab= "Coverage", ylab="Frequency", col="blue", cex.axis=1.25, cex.lab=1.5, cex.main=2)
+dev.off()
+
+spec1_17 <- read.table("~/Desktop/jellyfish_histo/17mer_reads.histo")
+png("17mer2.png", width=150, height=120, units='mm', res=300)
+plot(spec1_17[5:200,],type="l", lwd =4, main="17-mer", xlab= "Coverage", ylab="Frequency", col="blue", cex.axis=1.25, cex.lab=1.5, cex.main=2)
+dev.off()
+
+spec1_26 <- read.table("~/Desktop/jellyfish_histo/26mer_reads.histo")
+png("26mer2.png", width=150, height=120, units='mm', res=300)
+plot(spec1_26[5:200,],type="l", lwd =4, main="26-mer", xlab= "Coverage", ylab="Frequency", col="blue", cex.axis=1.25, cex.lab=1.5, cex.main=2)
+dev.off()
